@@ -5,17 +5,28 @@
 }
 
 #personajes {
-    /* Complete el CSS aqui */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .personaje {
-/* Complete el CSS aqui */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
 }
 
-.personaje__nombre {
-/* Complete el CSS aqui */
+.personajenombre {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #333;
 }
 
-.personaje__imagen {
-/* Complete el CSS aqui */
+.personajeimagen {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
